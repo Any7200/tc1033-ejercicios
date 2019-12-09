@@ -14,3 +14,5 @@ class Terrestres(Vehiculos):
 class Maritimos(Vehiculos):
     def __init__(self,_tipo_propulsion):
         self.tipo_propulsion = _tipo_propulsion
+class Aereos(Vehiculos):
+    pass
