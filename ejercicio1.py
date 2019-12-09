@@ -7,8 +7,17 @@ def run(_number):
         while value!=_number:
             print("Running")
             value+=1
+def perceptron(a,b,c,d):
+    x = (a*b)+(c*d)
+    if x>20:
+        print("1")
+        return 1
+    else:
+        print("0")
+        return 0 
 #Inicio de programa 
 if __name__ == "__main__":
     obj1 = greet("Hansel")
     obj1 = greet("Gretel")
     obj2 = run(5)
+
