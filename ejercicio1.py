@@ -10,14 +10,16 @@ def run(_number):
 def perceptron(a,b,c,d):
     x = (a*b)+(c*d)
     if x>20:
-        print("1")
+        print(x)
         return 1
     else:
-        print("0")
+        print(x)
         return 0 
 #Inicio de programa 
 if __name__ == "__main__":
     obj1 = greet("Hansel")
     obj1 = greet("Gretel")
     obj2 = run(5)
-
+    obj3 = perceptron(1,5,1,5)
+    obj3 = perceptron(1,10,1,5)
+    obj3 = perceptron(1,5,1,10)
