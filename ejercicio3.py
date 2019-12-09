@@ -11,3 +11,6 @@ class Terrestres(Vehiculos):
         self.n_puertas = _n_puertas
     def comprobar_tipo(self):
         pass
+class Maritimos(Vehiculos):
+    def __init__(self,_tipo_propulsion):
+        self.tipo_propulsion = _tipo_propulsion
