@@ -7,11 +7,8 @@ def run(_number):
         while value!=_number:
             print("Running")
             value+=1
-print("Nombre?")
-name = str(input())
-obj1 = greet(name)
-obj1
-print("Número?")
-number = int(input())
-obj2 = run(number)
-obj2
+#Inicio de programa 
+if __name__ == "__main__":
+    obj1 = greet("Hansel")
+    obj1 = greet("Gretel")
+    obj2 = run(5)
